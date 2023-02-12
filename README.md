@@ -3,35 +3,18 @@
 
 
 ## Running the server
-If you wish to run the server, the first step is [installing Ruby](https://www.ruby-lang.org/en/documentation/installation/).
-
-Once that's out of the way, open a terminal and run the following command:
+If you wish to run the server, run the following command:
 
 ```
-gem install bundler
+mvn spring-boot:run
 ```
 
-which will install [Bundler](http://bundler.io/), a dependency manager that will allow installing the project's dependencies. Still in the terminal, navigate to the project's directory and run:
-
-```
-bundle install
-```
-
-to install said dependencies.
-
-The server is now ready to run. Simply point a terminal to the project's folder and run:
-
-```
-rackup
-```
 
 which should result in output such as:
 
 ```
-[2015-01-07T13:04:14.4616 #37268]  INFO -- : Incoming/outgoing API requests will be logged to the console.
-[2015-01-07 13:04:14] INFO  WEBrick 1.3.1
-[2015-01-07 13:04:14] INFO  ruby 2.1.2 (2014-05-08) [x86_64-darwin13.0]
-[2015-01-07 13:04:14] INFO  WEBrick::HTTPServer#start: pid=37268 port=9292
+[2021-01-07T13:04:14.4616 #37268]  INFO 10374 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8100 (http).
+
 ```
 
 indicating the server is now listening at port 9292.
