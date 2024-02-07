@@ -1,6 +1,6 @@
 # Yolo Service backend
 
-Yolo Service backed provide you the MVC architecture to mange the gas statiom's employees data. This service built on java springboot technology and service extended with the postgreSQL database. Yolo service also provide the tomcat server to host your service.
+Yolo Service's backend provides you with the MVC architecture to manage the gas station's employees' data. This service is built on java spring-boot technology and service extended with the PostgreSQL database. Yolo service also provides the tomcat server to host your service.
 
 ## Running the server
 If you wish to run the server, run the following command:
